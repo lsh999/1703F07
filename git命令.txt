@@ -1,0 +1,16 @@
+git 本地版本管理
+
+1、创建文件夹
+2、切换到该文件夹下 初始化 git init
+3、查看状态	git status
+4、新建 文件（a.txt） 
+5、将文件加入暂存区  		git add 文件名 / git add .
+6、将文件添加到工作区并加注释 	git commit -m "注释"
+
+查看修改之前版本  git log  / git reflog
+查看区别  	git diff
+回到之前版本 	git reset --hard commit-id
+删除		git rm 文件名
+切换到分支或上一个工作区操作  git checkout
+	
+
